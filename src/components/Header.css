@@ -8,6 +8,7 @@
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(233, 188, 182, 0.3);
+  isolation: isolate;
   transition: box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
@@ -180,6 +181,22 @@
 
 /* Responsive */
 @media (max-width: 768px) {
+  .header {
+    background: var(--surface-container-lowest);
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+  }
+
+  .header--scrolled {
+    background: var(--surface-container-lowest);
+  }
+
+  .header__inner {
+    padding: 14px var(--margin-mobile);
+    min-height: 68px;
+  }
+
   .header__nav,
   .header__actions {
     display: none;
@@ -192,5 +209,10 @@
 
   .header__title {
     font-size: 16px;
+  }
+
+  .header__mobile-menu {
+    width: min(320px, 88vw);
+    background: var(--surface-container-lowest);
   }
 }

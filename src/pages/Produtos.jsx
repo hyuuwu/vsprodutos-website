@@ -12,7 +12,7 @@ const CATEGORIES = [
     icon: 'cable',
     title: 'Cabos e Carregadores',
     description: 'Cabos de alta velocidade, carregadores turbo e adaptadores universais.',
-    image: 'https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&q=80&w=600',
+    image: 'https://images.unsplash.com/photo-1731616103600-3fe7ccdc5a59?auto=format&fit=crop&q=80&w=600',
   },
   {
     icon: 'headphones',
@@ -30,13 +30,13 @@ const CATEGORIES = [
     icon: 'speaker',
     title: 'Caixas de Som',
     description: 'Som potente e portátil para qualquer ambiente.',
-    image: 'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&q=80&w=600',
+    image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd1sfzvg6s5tf2e.cloudfront.net%2FCustom%2FContent%2FProducts%2F48%2F91%2F4891_caixa-de-som-bomber-bass_z1_638064394007363501.jpg&f=1&nofb=1&ipt=248d2411c4de85b0091fc377f3327487c047f8c03b6eef6e424b24f284bf6249',
   },
   {
     icon: 'usb',
     title: 'Pendrives e Armazenamento',
     description: 'Armazenamento rápido e seguro em diversos tamanhos.',
-    image: 'https://images.unsplash.com/photo-1682948163895-95eef28e96b9?q=80&w=1123&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    image: 'https://images.tcdn.com.br/img/img_prod/1380318/noticia_400840119690cd19035d53.png',
   },
 ]
 
