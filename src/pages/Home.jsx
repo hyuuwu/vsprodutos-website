@@ -3,7 +3,7 @@ import useReveal from '../hooks/useReveal'
 import './Home.css'
 
 const HERO_BG = 'https://images.unsplash.com/photo-1550009158-9effb619a712?auto=format&fit=crop&q=80&w=1920'
-const ABOUT_IMG = 'https://ibb.co/gLrmFdXb'
+const ABOUT_IMG = 'https://i.ibb.co/VcLJpxh0/1000023059.jpg'
 
 const HIGHLIGHTS = [
   {
