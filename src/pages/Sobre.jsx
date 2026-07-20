@@ -77,7 +77,7 @@ export default function Sobre() {
             </div>
             <div className="sobre-hero__image-wrapper">
               <img
-                src={"https://lh3.googleusercontent.com/gps-cs-s/APNQkAGYTrJQDlTgLFT1ZZ2hbaG8eTB-Of6s64yZmXHA6IL_tgw5i-vD3PKVL6UCcncIs0GKafEuMWBxmSLbMU0_FhxTpjNXUfvtw7xkoOHCeqjJD93Vn8kIhWclNCh06mstC3yjCRGB"}
+                src={"https://i.ibb.co/812B8Ph/1000023059.jpg"}
                 alt="Interior da loja VS Produtos e Serviços"
                 className="sobre-hero__image"
               />

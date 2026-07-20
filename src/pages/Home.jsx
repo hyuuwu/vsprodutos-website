@@ -3,7 +3,7 @@ import useReveal from '../hooks/useReveal'
 import './Home.css'
 
 const HERO_BG = 'https://images.unsplash.com/photo-1550009158-9effb619a712?auto=format&fit=crop&q=80&w=1920'
-const ABOUT_IMG = 'https://lh3.googleusercontent.com/aida-public/AB6AXuCBoBP-y6f9H2JKB-jD7mhDjvgQmyQ9IyuogJZgQysB_5sN86yj3IYhDYgVkKIuqdg7ZtVmdrZXWMcNaMp3GQU7lesvx6jU-vBWGN8CSIM7sHskc5B1WhwvtSRhRsRWRoYlrLb_ZTYmv7G56gVlfW17xzH2io2NcsQmvffBPVO6mfR1-WyqdSPS_c5s8uD5Li9e1-eXb58Y49NmZwL5Be_cjThDGk-fOBvko1BCxn-m1gCz0ZS_BihYiICB-CutkxOHs1xbJXvj7OnV'
+const ABOUT_IMG = 'https://ibb.co/gLrmFdXb'
 
 const HIGHLIGHTS = [
   {
@@ -20,6 +20,11 @@ const HIGHLIGHTS = [
     icon: 'headphones',
     title: 'Áudio e Som',
     description: 'Fones de ouvido Bluetooth, caixas de som portáteis e headsets profissionais com cancelamento de ruído.',
+  },
+  {
+    icon: 'jewelry',
+    title: 'Joias, Semijoias e Relógios',
+    description: 'Peças elegantes e duráveis, com acabamento impecável para todas as ocasiões.',
   },
 ]
 
