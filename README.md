@@ -1,1 +1,2 @@
-leia-me
+- [ ] banner na home
+- [ ] a VS não vende joias, tem q tirar
