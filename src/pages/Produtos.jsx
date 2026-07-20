@@ -16,7 +16,7 @@ const CATEGORIES = [
   },
   {
     icon: 'watch',
-    title: 'Relogios e Smartwatches',
+    title: 'Relógios e Smartwatches',
     description: 'Relógios e Smartwatches de alta qualidade para todos os estilos.',
     image: 'https://images.unsplash.com/photo-1547996160-81dfa63595aa?auto=format&fit=crop&q=80&w=600',
   },
