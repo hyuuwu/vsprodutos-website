@@ -5,6 +5,29 @@ import './Home.css'
 const HERO_BG = 'https://images.unsplash.com/photo-1550009158-9effb619a712?auto=format&fit=crop&q=80&w=1920'
 const ABOUT_IMG = 'https://i.ibb.co/VcLJpxh0/1000023059.jpg'
 
+const HIGHLIGHTS = [
+  {
+    icon: 'smartphone',
+    title: 'Acessórios para Celular',
+    description: 'Capas, películas, cabos de alta velocidade e carregadores portáteis de última geração.',
+  },
+  {
+    icon: 'computer',
+    title: 'Informática',
+    description: 'Mouses precisos, teclados ergonômicos, pendrives e componentes para otimizar seu setup.',
+  },
+  {
+    icon: 'headphones',
+    title: 'Áudio e Som',
+    description: 'Fones de ouvido Bluetooth, caixas de som portáteis e headsets profissionais com cancelamento de ruído.',
+  },
+  {
+    icon: 'jewelry',
+    title: 'Joias, Semijoias e Relógios',
+    description: 'Peças elegantes e duráveis, com acabamento impecável para todas as ocasiões.',
+  },
+]
+
 const FEATURES = [
   'Ampla variedade de acessórios para todas as marcas.',
   'Periféricos de informática para alta performance.',
@@ -73,6 +96,29 @@ export default function Home() {
                 className="about-preview__image"
               />
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Product Highlights */}
+      <section className="highlights section-padding">
+        <div className="container">
+          <div className="highlights__header reveal">
+            <h2 className="text-headline-md">Nossos Destaques</h2>
+            <p className="text-body-md highlights__subtitle">
+              Conheça nossas principais categorias de produtos, selecionadas para oferecer o melhor desempenho.
+            </p>
+          </div>
+          <div className="highlights__grid">
+            {HIGHLIGHTS.map((item, i) => (
+              <div key={i} className="highlight-card reveal" style={{ transitionDelay: `${i * 0.12}s` }}>
+                <div className="highlight-card__icon">
+                  <span className="material-symbols-outlined">{item.icon}</span>
+                </div>
+                <h3 className="text-headline-sm highlight-card__title">{item.title}</h3>
+                <p className="text-body-md highlight-card__desc">{item.description}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
