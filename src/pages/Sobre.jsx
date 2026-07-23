@@ -8,7 +8,7 @@ const VALUES = [
   {
     icon: 'price_check',
     title: 'Custo-Benefício',
-    description: 'Soluções tecnológicas com o equilíbrio perfeito entre qualidade e preço justo, garantindo o melhor retorno para nossos clientes desde 2008.',
+    description: 'Soluções tecnológicas com o equilíbrio perfeito entre qualidade e preço justo, garantindo alto valor desde 2008.',
   },
   {
     icon: 'inventory_2',
@@ -147,7 +147,7 @@ export default function Sobre() {
               <h2 className="text-headline-md sobre-location__title">Localização e Contato</h2>
               <p className="text-body-lg sobre-location__desc">
                 Estamos localizados estrategicamente próximos ao SAC do Shopping Bela Vista,
-                facilitando o acesso para todos os clientes.
+                facilitando o acesso para todos.
               </p>
 
               <div className="sobre-location__details">
